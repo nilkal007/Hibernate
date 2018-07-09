@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="main.java.hibernatebasic.Book" table="Book">
+				
+        <id name="bk_id" type="int">  <column name="ID" />  </id>
+        <property name="bk_nm" type="java.lang.String">  <column name="NAME" />  </property>
+        <property name="price" type="java.lang.Long">  <column name="Price" />  </property>
+       
+    </class>
+</hibernate-mapping>
