@@ -12,7 +12,7 @@ import javax.persistence.Table;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-public class Table_per_class_hierarchy {
+public class One_Table_per_class_hierarchy {
 	public static void main(String[] args) {
 		vehicle v1 = new vehicle(1, "honda", 246, 10, 100000);
 		vehicle v2 = new bike(2, "pulser", 2, 50, 50000, 2);
@@ -31,8 +31,9 @@ public class Table_per_class_hierarchy {
 @Entity
 @Table(name = "vehicle_details")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-//@DiscriminatorColumn(name="parent",discriminatorType = DiscriminatorType.STRING)
-//@DiscriminatorValue(value = "rto")
+// @DiscriminatorColumn(name="parent",discriminatorType =
+// DiscriminatorType.STRING)
+// @DiscriminatorValue(value = "rto")
 class vehicle {
 	@Id
 	int rto;
@@ -54,9 +55,9 @@ class vehicle {
 		this.price = price;
 	}
 
-//	public vehicle() {
-//
-//	}
+	// public vehicle() {
+	//
+	// }
 
 }
 
@@ -69,8 +70,8 @@ class bike extends vehicle {
 		this.min_size = min_size;
 	}
 
-//	public bike() {
-//	}
+	// public bike() {
+	// }
 }
 
 @Entity
@@ -82,8 +83,8 @@ class car extends vehicle {
 		this.mid_size = mid_size;
 	}
 
-//	public car() {
-//	}
+	// public car() {
+	// }
 }
 
 @Entity
@@ -95,6 +96,6 @@ class bus extends vehicle {
 		this.max_size = max_size;
 	}
 
-//	public bus() {
-//	}
+	// public bus() {
+	// }
 }

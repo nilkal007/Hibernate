@@ -3,10 +3,16 @@
 "http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 	<class name="main.java.hibernatebasic.Book" table="Book">
-				
-        <id name="bk_id" type="int">  <column name="ID" />  </id>
-        <property name="bk_nm" type="java.lang.String">  <column name="NAME" />  </property>
-        <property name="price" type="java.lang.Long">  <column name="Price" />  </property>
-       
-    </class>
+
+		<id name="bk_id" type="int">
+			<column name="ID" />
+		</id>
+		<property name="bk_nm" type="java.lang.String">
+			<column name="NAME" />
+		</property>
+		<property name="price" type="java.lang.Long">
+			<column name="Price" />
+		</property>
+
+	</class>
 </hibernate-mapping>
