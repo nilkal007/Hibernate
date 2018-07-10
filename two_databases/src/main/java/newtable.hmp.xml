@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hibernate.two_databases.newtable" table="newtable">
+
+		<id name="id" type="int">
+			<column name="ID" />
+		</id>
+		<property name="name" type="java.lang.String">
+			<column name="NAME" />
+		</property>
+		<property name="address" type="java.lang.String">
+			<column name="address" />
+		</property>
+
+	</class>
+</hibernate-mapping>
