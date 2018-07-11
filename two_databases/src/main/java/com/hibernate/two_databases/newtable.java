@@ -4,9 +4,11 @@ public class newtable {
 	int id;
 	String name;
 	String address;
-public newtable() {
-	// TODO Auto-generated constructor stub
-}
+
+	public newtable() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public newtable(int id, String name, String address) {
 		super();
 		this.id = id;
@@ -37,6 +39,5 @@ public newtable() {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	
 
 }

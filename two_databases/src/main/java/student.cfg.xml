@@ -17,7 +17,7 @@
 		<property name="show_sql">true</property>
 		<property name="format_sql">true</property>
 		<mapping class="com.hibernate.two_databases.student" />
-		
+
 
 	</session-factory>
 </hibernate-configuration>

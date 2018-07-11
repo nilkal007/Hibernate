@@ -2,7 +2,8 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-	<class name="com.hibernate.two_databases.newtable" table="newtable">
+	<class name="com.hibernate.two_databases.newtable"
+		table="newtable">
 
 		<id name="id" type="int">
 			<column name="ID" />
