@@ -18,7 +18,7 @@ import antlr.collections.Enumerator;
 
 public class retrive {
 	public static void main(String[] args) {
-	
+
 		SessionFactory sf = new Configuration().configure("retrives.cfg.xml").buildSessionFactory();
 		Session session = sf.openSession();
 		Transaction tx = session.beginTransaction();
@@ -51,7 +51,6 @@ public class retrive {
 			for (address addressa : address1) {
 				if (addressa.id == student.id)
 					session3.save(new newtable(student.getId(), student.getName(), addressa.getAddress()));
-				// System.out.println(student.id+" "+student.name+" "+addressa.Address);
 
 			}
 

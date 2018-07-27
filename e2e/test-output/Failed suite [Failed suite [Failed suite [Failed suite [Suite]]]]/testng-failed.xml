@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)(failed)(failed)(failed)(failed)">
+    <classes>
+      <class name="com.scp.a.BTest">
+        <methods>
+          <include name="e"/>
+          <include name="a"/>
+          <include name="b"/>
+        </methods>
+      </class> <!-- com.scp.a.BTest -->
+      <class name="com.scp.a.ATest">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.scp.a.ATest -->
+      <class name="com.scp.c.FTest">
+        <methods>
+          <include name="e"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.scp.c.FTest -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]] -->

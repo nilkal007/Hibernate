@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Failed suite [Surefire suite]]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)(failed)" verbose="0">
+    <classes>
+      <class name="com.scp.c.FTest">
+        <methods>
+          <include name="e"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.scp.c.FTest -->
+      <class name="com.scp.a.ATest">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.scp.a.ATest -->
+      <class name="com.scp.a.BTest">
+        <methods>
+          <include name="e"/>
+          <include name="a"/>
+          <include name="b"/>
+        </methods>
+      </class> <!-- com.scp.a.BTest -->
+    </classes>
+  </test> <!-- Surefire test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Surefire suite]] -->

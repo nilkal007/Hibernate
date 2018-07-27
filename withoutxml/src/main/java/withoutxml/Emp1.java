@@ -5,7 +5,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="EMP")
+@Table(name = "EMP")
 public class Emp1 {
 	@Id
 	int id;
@@ -57,6 +57,5 @@ public class Emp1 {
 	public String toString() {
 		return "Emp [id=" + id + ", name=" + Name + ", salary=" + Salary + ", Address=" + Address + "]";
 	}
-	
 
 }

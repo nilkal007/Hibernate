@@ -1,0 +1,86 @@
+2018-07-25 11:53:48 FATAL log4jexp:13 - This is fatal msg
+2018-07-25 11:53:50 ERROR log4jexp:14 - This is error msg
+2018-07-25 11:53:50 WARN  log4jexp:16 - This is warn msg
+2018-07-25 11:53:50 INFO  log4jexp:17 - This is info msg
+2018-07-25 11:53:50 DEBUG log4jexp:18 - This is debug msg
+2018-07-25 11:53:50 TRACE log4jexp:19 - This is trace msg
+2018-07-25 11:53:50 FATAL log4jexp:13 - This is fatal msg
+2018-07-25 11:53:50 ERROR log4jexp:14 - This is error msg
+2018-07-25 11:53:50 WARN  log4jexp:16 - This is warn msg
+2018-07-25 11:53:50 INFO  log4jexp:17 - This is info msg
+2018-07-25 11:53:50 DEBUG log4jexp:18 - This is debug msg
+2018-07-25 11:53:50 TRACE log4jexp:19 - This is trace msg
+2018-07-25 11:53:50 FATAL log4jexp:13 - This is fatal msg
+2018-07-25 11:53:50 ERROR log4jexp:14 - This is error msg
+2018-07-25 11:53:50 WARN  log4jexp:16 - This is warn msg
+2018-07-25 11:53:50 INFO  log4jexp:17 - This is info msg
+2018-07-25 11:53:50 DEBUG log4jexp:18 - This is debug msg
+2018-07-25 11:53:50 TRACE log4jexp:19 - This is trace msg
+2018-07-25 11:53:50 FATAL log4jexp:13 - This is fatal msg
+2018-07-25 11:53:50 ERROR log4jexp:14 - This is error msg
+2018-07-25 11:53:50 WARN  log4jexp:16 - This is warn msg
+2018-07-25 11:53:50 INFO  log4jexp:17 - This is info msg
+2018-07-25 11:53:50 DEBUG log4jexp:18 - This is debug msg
+2018-07-25 11:53:50 TRACE log4jexp:19 - This is trace msg
+2018-07-25 11:53:50 FATAL log4jexp:13 - This is fatal msg
+2018-07-25 11:53:50 ERROR log4jexp:14 - This is error msg
+2018-07-25 11:53:50 WARN  log4jexp:16 - This is warn msg
+2018-07-25 11:53:50 INFO  log4jexp:17 - This is info msg
+2018-07-25 11:53:50 DEBUG log4jexp:18 - This is debug msg
+2018-07-25 11:53:50 TRACE log4jexp:19 - This is trace msg
+2018-07-25 11:53:50 FATAL log4jexp:13 - This is fatal msg
+2018-07-25 11:53:50 ERROR log4jexp:14 - This is error msg
+2018-07-25 11:53:50 WARN  log4jexp:16 - This is warn msg
+2018-07-25 11:53:50 INFO  log4jexp:17 - This is info msg
+2018-07-25 11:53:50 DEBUG log4jexp:18 - This is debug msg
+2018-07-25 11:53:50 TRACE log4jexp:19 - This is trace msg
+2018-07-25 11:53:50 FATAL log4jexp:13 - This is fatal msg
+2018-07-25 11:53:50 ERROR log4jexp:14 - This is error msg
+2018-07-25 11:53:50 WARN  log4jexp:16 - This is warn msg
+2018-07-25 11:53:50 INFO  log4jexp:17 - This is info msg
+2018-07-25 11:53:50 DEBUG log4jexp:18 - This is debug msg
+2018-07-25 11:53:50 TRACE log4jexp:19 - This is trace msg
+2018-07-25 11:53:50 FATAL log4jexp:13 - This is fatal msg
+2018-07-25 11:53:50 ERROR log4jexp:14 - This is error msg
+2018-07-25 11:53:50 WARN  log4jexp:16 - This is warn msg
+2018-07-25 11:53:50 INFO  log4jexp:17 - This is info msg
+2018-07-25 11:53:50 DEBUG log4jexp:18 - This is debug msg
+2018-07-25 11:53:50 TRACE log4jexp:19 - This is trace msg
+2018-07-25 11:53:50 FATAL log4jexp:13 - This is fatal msg
+2018-07-25 11:53:50 ERROR log4jexp:14 - This is error msg
+2018-07-25 11:53:50 WARN  log4jexp:16 - This is warn msg
+2018-07-25 11:53:50 INFO  log4jexp:17 - This is info msg
+2018-07-25 11:53:50 DEBUG log4jexp:18 - This is debug msg
+2018-07-25 11:53:50 TRACE log4jexp:19 - This is trace msg
+2018-07-25 11:53:50 FATAL log4jexp:13 - This is fatal msg
+2018-07-25 11:53:50 ERROR log4jexp:14 - This is error msg
+2018-07-25 11:53:50 WARN  log4jexp:16 - This is warn msg
+2018-07-25 11:53:50 INFO  log4jexp:17 - This is info msg
+2018-07-25 11:53:50 DEBUG log4jexp:18 - This is debug msg
+2018-07-25 11:53:50 TRACE log4jexp:19 - This is trace msg
+2018-07-25 11:56:00 FATAL HibernateMain:21 - This is fatal msg
+2018-07-25 11:56:02 ERROR HibernateMain:22 - This is error msg
+2018-07-25 11:56:02 WARN  HibernateMain:23 - This is warn msg
+2018-07-25 11:56:02 INFO  HibernateMain:24 - This is info msg
+2018-07-25 11:56:02 DEBUG HibernateMain:25 - This is debug msg
+2018-07-25 11:56:02 TRACE HibernateMain:26 - This is trace msg
+2018-07-25 11:57:48 DEBUG HibernateMain:20 - Sample debug message
+2018-07-25 11:57:49 INFO  HibernateMain:21 - Sample info message
+2018-07-25 11:57:49 ERROR HibernateMain:22 - Sample error message
+2018-07-25 11:57:49 FATAL HibernateMain:23 - Sample fatal message
+2018-07-25 11:59:44 DEBUG HibernateMain:20 - Sample debug message
+2018-07-25 11:59:46 INFO  HibernateMain:21 - Sample info message
+2018-07-25 11:59:46 ERROR HibernateMain:22 - Sample error message
+2018-07-25 11:59:46 FATAL HibernateMain:23 - Sample fatal message
+2018-07-25 12:01:30 DEBUG HibernateMain:20 - Sample debug message
+2018-07-25 12:01:31 INFO  HibernateMain:21 - Sample info message
+2018-07-25 12:01:31 ERROR HibernateMain:22 - Sample error message
+2018-07-25 12:01:31 FATAL HibernateMain:23 - Sample fatal message
+2018-07-25 12:02:01 DEBUG HibernateMain:20 - Sample debug message
+2018-07-25 12:02:03 INFO  HibernateMain:21 - Sample info message
+2018-07-25 12:02:03 ERROR HibernateMain:22 - Sample error message
+2018-07-25 12:02:03 FATAL HibernateMain:23 - Sample fatal message
+2018-07-25 12:06:20 DEBUG HibernateMain:20 - Sample debug message
+2018-07-25 12:06:21 INFO  HibernateMain:21 - Sample info message
+2018-07-25 12:06:21 ERROR HibernateMain:22 - Sample error message
+2018-07-25 12:06:21 FATAL HibernateMain:23 - Sample fatal message

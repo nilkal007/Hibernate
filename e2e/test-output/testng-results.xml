@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="48" passed="39" failed="7" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-07-25T16:47:47Z" name="Suite" finished-at="2018-07-25T16:47:48Z" duration-ms="1434">
+    <groups>
+      <group name="functionalTest2">
+        <method signature="BTest.d()[pri:0, instance:com.scp.a.BTest@568ff82]" name="d" class="com.scp.a.BTest"/>
+        <method signature="CTest.d()[pri:0, instance:com.scp.a.CTest@50caa560]" name="d" class="com.scp.a.CTest"/>
+        <method signature="ATest.b()[pri:0, instance:com.scp.a.ATest@f2ff811]" name="b" class="com.scp.a.ATest"/>
+        <method signature="DTest.e()[pri:0, instance:com.scp.b.DTest@65b3f4a4]" name="e" class="com.scp.b.DTest"/>
+      </group> <!-- functionalTest2 -->
+      <group name="functionalTest">
+        <method signature="ATest.a()[pri:0, instance:com.scp.a.ATest@f2ff811]" name="a" class="com.scp.a.ATest"/>
+        <method signature="BTest.c()[pri:0, instance:com.scp.a.BTest@568ff82]" name="c" class="com.scp.a.BTest"/>
+        <method signature="CTest.c()[pri:0, instance:com.scp.a.CTest@50caa560]" name="c" class="com.scp.a.CTest"/>
+        <method signature="DTest.d()[pri:0, instance:com.scp.b.DTest@65b3f4a4]" name="d" class="com.scp.b.DTest"/>
+        <method signature="ETest.e()[pri:0, instance:com.scp.b.ETest@5ab9e72c]" name="e" class="com.scp.b.ETest"/>
+        <method signature="FTest.f()[pri:0, instance:com.scp.c.FTest@2a266d09]" name="f" class="com.scp.c.FTest"/>
+      </group> <!-- functionalTest -->
+    </groups>
+    <test started-at="2018-07-25T16:47:47Z" name="Test" finished-at="2018-07-25T16:47:48Z" duration-ms="1434">
+      <class name="com.scp.a.ATest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.scp.a.ATest@f2ff811]" started-at="2018-07-25T16:47:47Z" name="beforeTest" finished-at="2018-07-25T16:47:47Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="a()[pri:0, instance:com.scp.a.ATest@f2ff811]" started-at="2018-07-25T16:47:47Z" name="a" finished-at="2018-07-25T16:47:47Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.scp.a.ATest@f2ff811]" started-at="2018-07-25T16:47:47Z" name="beforeTest" finished-at="2018-07-25T16:47:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="b()[pri:0, instance:com.scp.a.ATest@f2ff811]" started-at="2018-07-25T16:47:47Z" name="b" finished-at="2018-07-25T16:47:47Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.scp.a.ATest@f2ff811]" started-at="2018-07-25T16:47:47Z" name="beforeTest" finished-at="2018-07-25T16:47:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="c()[pri:0, instance:com.scp.a.ATest@f2ff811]" started-at="2018-07-25T16:47:47Z" name="c" finished-at="2018-07-25T16:47:47Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.scp.a.ATest@f2ff811]" started-at="2018-07-25T16:47:47Z" name="beforeTest" finished-at="2018-07-25T16:47:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="d()[pri:0, instance:com.scp.a.ATest@f2ff811]" started-at="2018-07-25T16:47:47Z" name="d" finished-at="2018-07-25T16:47:47Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.scp.a.ATest@f2ff811]" started-at="2018-07-25T16:47:47Z" name="beforeTest" finished-at="2018-07-25T16:47:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="e()[pri:0, instance:com.scp.a.ATest@f2ff811]" started-at="2018-07-25T16:47:47Z" name="e" finished-at="2018-07-25T16:47:47Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.scp.a.ATest@f2ff811]" started-at="2018-07-25T16:47:47Z" name="beforeTest" finished-at="2018-07-25T16:47:47Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f()[pri:0, instance:com.scp.a.ATest@f2ff811]" started-at="2018-07-25T16:47:47Z" name="f" finished-at="2018-07-25T16:47:47Z" duration-ms="14" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at com.scp.a.ATest.f(ATest.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.scp.a.ATest@f2ff811]" started-at="2018-07-25T16:47:47Z" name="beforeTest" finished-at="2018-07-25T16:47:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="getprovider(java.lang.String, java.lang.String)[pri:0, instance:com.scp.a.ATest@f2ff811]" started-at="2018-07-25T16:47:47Z" name="getprovider" data-provider="getData" finished-at="2018-07-25T16:47:47Z" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstUid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FirstPWD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getprovider -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.scp.a.ATest@f2ff811]" started-at="2018-07-25T16:47:47Z" name="beforeTest" finished-at="2018-07-25T16:47:47Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="getprovider(java.lang.String, java.lang.String)[pri:0, instance:com.scp.a.ATest@f2ff811]" started-at="2018-07-25T16:47:47Z" name="getprovider" data-provider="getData" finished-at="2018-07-25T16:47:47Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondUid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondPWD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getprovider -->
+      </class> <!-- com.scp.a.ATest -->
+      <class name="com.scp.b.DTest">
+        <test-method signature="d()[pri:0, instance:com.scp.b.DTest@65b3f4a4]" started-at="2018-07-25T16:47:47Z" name="d" finished-at="2018-07-25T16:47:47Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d -->
+        <test-method signature="a()[pri:0, instance:com.scp.b.DTest@65b3f4a4]" started-at="2018-07-25T16:47:47Z" name="a" finished-at="2018-07-25T16:47:47Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method signature="b()[pri:0, instance:com.scp.b.DTest@65b3f4a4]" started-at="2018-07-25T16:47:47Z" name="b" finished-at="2018-07-25T16:47:47Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="c()[pri:0, instance:com.scp.b.DTest@65b3f4a4]" started-at="2018-07-25T16:47:47Z" name="c" finished-at="2018-07-25T16:47:47Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+        <test-method signature="e()[pri:0, instance:com.scp.b.DTest@65b3f4a4]" started-at="2018-07-25T16:47:47Z" name="e" finished-at="2018-07-25T16:47:47Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e -->
+        <test-method signature="f()[pri:0, instance:com.scp.b.DTest@65b3f4a4]" started-at="2018-07-25T16:47:47Z" name="f" finished-at="2018-07-25T16:47:47Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.scp.b.DTest -->
+      <class name="com.scp.a.BTest">
+        <test-method signature="b()[pri:0, instance:com.scp.a.BTest@568ff82]" started-at="2018-07-25T16:47:47Z" name="b" finished-at="2018-07-25T16:47:47Z" duration-ms="10" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at com.scp.a.BTest.b(BTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="b()[pri:0, instance:com.scp.a.BTest@568ff82]" started-at="2018-07-25T16:47:47Z" name="b" finished-at="2018-07-25T16:47:47Z" duration-ms="8" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at com.scp.a.BTest.b(BTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="b()[pri:0, instance:com.scp.a.BTest@568ff82]" started-at="2018-07-25T16:47:47Z" name="b" finished-at="2018-07-25T16:47:47Z" duration-ms="33" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at com.scp.a.BTest.b(BTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="b()[pri:0, instance:com.scp.a.BTest@568ff82]" started-at="2018-07-25T16:47:47Z" name="b" finished-at="2018-07-25T16:47:47Z" duration-ms="17" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at com.scp.a.BTest.b(BTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="b()[pri:0, instance:com.scp.a.BTest@568ff82]" started-at="2018-07-25T16:47:47Z" name="b" finished-at="2018-07-25T16:47:47Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="b()[pri:0, instance:com.scp.a.BTest@568ff82]" started-at="2018-07-25T16:47:47Z" name="b" finished-at="2018-07-25T16:47:47Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="b()[pri:0, instance:com.scp.a.BTest@568ff82]" started-at="2018-07-25T16:47:47Z" name="b" finished-at="2018-07-25T16:47:47Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="b()[pri:0, instance:com.scp.a.BTest@568ff82]" started-at="2018-07-25T16:47:47Z" name="b" finished-at="2018-07-25T16:47:47Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="b()[pri:0, instance:com.scp.a.BTest@568ff82]" started-at="2018-07-25T16:47:47Z" name="b" finished-at="2018-07-25T16:47:47Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="b()[pri:0, instance:com.scp.a.BTest@568ff82]" started-at="2018-07-25T16:47:48Z" name="b" finished-at="2018-07-25T16:47:48Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="c()[pri:0, instance:com.scp.a.BTest@568ff82]" started-at="2018-07-25T16:47:48Z" name="c" finished-at="2018-07-25T16:47:48Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+        <test-method signature="d()[pri:0, instance:com.scp.a.BTest@568ff82]" started-at="2018-07-25T16:47:48Z" name="d" finished-at="2018-07-25T16:47:48Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d -->
+        <test-method signature="e()[pri:0, instance:com.scp.a.BTest@568ff82]" started-at="2018-07-25T16:47:48Z" name="e" finished-at="2018-07-25T16:47:48Z" duration-ms="4" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at com.scp.a.BTest.e(BTest.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e -->
+        <test-method signature="f()[pri:0, instance:com.scp.a.BTest@568ff82]" started-at="2018-07-25T16:47:48Z" name="f" finished-at="2018-07-25T16:47:48Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="a()[pri:0, instance:com.scp.a.BTest@568ff82]" started-at="2018-07-25T16:47:48Z" name="a" finished-at="2018-07-25T16:47:48Z" depends-on-methods="com.scp.a.BTest.e" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method BTest.a()[pri:0, instance:com.scp.a.BTest@568ff82] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method BTest.a()[pri:0, instance:com.scp.a.BTest@568ff82] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+      </class> <!-- com.scp.a.BTest -->
+      <class name="com.scp.b.ETest">
+        <test-method signature="a()[pri:0, instance:com.scp.b.ETest@5ab9e72c]" started-at="2018-07-25T16:47:48Z" name="a" finished-at="2018-07-25T16:47:48Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method signature="b()[pri:0, instance:com.scp.b.ETest@5ab9e72c]" started-at="2018-07-25T16:47:48Z" name="b" finished-at="2018-07-25T16:47:48Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="c()[pri:0, instance:com.scp.b.ETest@5ab9e72c]" started-at="2018-07-25T16:47:48Z" name="c" finished-at="2018-07-25T16:47:48Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+        <test-method signature="d()[pri:0, instance:com.scp.b.ETest@5ab9e72c]" started-at="2018-07-25T16:47:48Z" name="d" finished-at="2018-07-25T16:47:48Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d -->
+        <test-method signature="e()[pri:0, instance:com.scp.b.ETest@5ab9e72c]" started-at="2018-07-25T16:47:48Z" name="e" finished-at="2018-07-25T16:47:48Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e -->
+        <test-method signature="f()[pri:0, instance:com.scp.b.ETest@5ab9e72c]" started-at="2018-07-25T16:47:48Z" name="f" finished-at="2018-07-25T16:47:48Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.scp.b.ETest -->
+      <class name="com.scp.a.CTest">
+        <test-method signature="b()[pri:0, instance:com.scp.a.CTest@50caa560]" started-at="2018-07-25T16:47:48Z" name="b" finished-at="2018-07-25T16:47:48Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="c()[pri:0, instance:com.scp.a.CTest@50caa560]" started-at="2018-07-25T16:47:48Z" name="c" finished-at="2018-07-25T16:47:48Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+        <test-method signature="d()[pri:0, instance:com.scp.a.CTest@50caa560]" started-at="2018-07-25T16:47:48Z" name="d" finished-at="2018-07-25T16:47:48Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d -->
+        <test-method signature="f()[pri:0, instance:com.scp.a.CTest@50caa560]" started-at="2018-07-25T16:47:48Z" name="f" finished-at="2018-07-25T16:47:48Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="e()[pri:0, instance:com.scp.a.CTest@50caa560]" started-at="2018-07-25T16:47:48Z" name="e" finished-at="2018-07-25T16:47:48Z" depends-on-methods="com.scp.a.CTest.f" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e -->
+        <test-method signature="a()[pri:0, instance:com.scp.a.CTest@50caa560]" started-at="2018-07-25T16:47:48Z" name="a" depends-on-groups="functionalTest" finished-at="2018-07-25T16:47:48Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+      </class> <!-- com.scp.a.CTest -->
+      <class name="com.scp.c.FTest">
+        <test-method signature="a()[pri:0, instance:com.scp.c.FTest@2a266d09]" started-at="2018-07-25T16:47:48Z" name="a" finished-at="2018-07-25T16:47:48Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.scp.c.FTest@2a266d09]" started-at="2018-07-25T16:47:48Z" name="afterMethod" finished-at="2018-07-25T16:47:48Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="b()[pri:0, instance:com.scp.c.FTest@2a266d09]" started-at="2018-07-25T16:47:48Z" name="b" finished-at="2018-07-25T16:47:48Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.scp.c.FTest@2a266d09]" started-at="2018-07-25T16:47:48Z" name="afterMethod" finished-at="2018-07-25T16:47:48Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="c()[pri:0, instance:com.scp.c.FTest@2a266d09]" started-at="2018-07-25T16:47:48Z" name="c" finished-at="2018-07-25T16:47:48Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.scp.c.FTest@2a266d09]" started-at="2018-07-25T16:47:48Z" name="afterMethod" finished-at="2018-07-25T16:47:48Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="e()[pri:0, instance:com.scp.c.FTest@2a266d09]" started-at="2018-07-25T16:47:48Z" name="e" finished-at="2018-07-25T16:47:48Z" duration-ms="4" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at com.scp.c.FTest.e(FTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.scp.c.FTest@2a266d09]" started-at="2018-07-25T16:47:48Z" name="afterMethod" finished-at="2018-07-25T16:47:48Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="f()[pri:0, instance:com.scp.c.FTest@2a266d09]" started-at="2018-07-25T16:47:48Z" name="f" finished-at="2018-07-25T16:47:48Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.scp.c.FTest@2a266d09]" started-at="2018-07-25T16:47:48Z" name="afterMethod" finished-at="2018-07-25T16:47:48Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="d()[pri:0, instance:com.scp.c.FTest@2a266d09]" started-at="2018-07-25T16:47:48Z" name="d" finished-at="2018-07-25T16:47:48Z" depends-on-methods="com.scp.c.FTest.e" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.scp.c.FTest@2a266d09]" started-at="2018-07-25T16:47:48Z" name="afterMethod" finished-at="2018-07-25T16:47:48Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.scp.c.FTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
